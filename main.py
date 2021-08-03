@@ -22,11 +22,8 @@ if __name__ == '__main__':
     from src.main_function.nlp_analyzer import nlp_analyzer
 
     start = timeit.default_timer()
-    nlp_analyzer(
-        data=args.data,
-        model=args.model,
-
-    )
+    #nlp_analyzer(data=args.data,model=args.model)
+    from src.exercise.exercise_text_classification import *
 
     stop = timeit.default_timer()
     print('Time: ', round(stop - start, 0))
