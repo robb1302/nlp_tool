@@ -15,4 +15,5 @@ imblearn == 0.0
 tpot==0.11.5
 lifelines==0.24.15
 category_encoders==2.2.2
-© 2021 GitHub, Inc.
+spacy==2.1.0
+nltk == 3.6.2
